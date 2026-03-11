@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainSum",
+            "request": "launch",
+            "mainClass": "MainSum",
+            "projectName": "BruteForceDivideConquer_babd421d"
+        },
+        {
+            "type": "java",
             "name": "MainPangkat",
             "request": "launch",
             "mainClass": "MainPangkat",

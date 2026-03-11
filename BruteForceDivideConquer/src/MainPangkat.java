@@ -22,7 +22,7 @@ public class MainPangkat {
 
         System.out.println("Hasil Pangkat BruteForce: ");
         for (Pangkat p : png) {
-            System.out.println(p.nilai + "^" + p.pangkat + ": " + p.pangkatBF(p.nilai, p.pangkat));
+            System.out.println(p.nilai + "^" + p.pangkat + ": " + p.pangkatBF()); // p.pangkatBF(p.nilai, p.pangkat)
         }
         
         System.out.println("Hasil Pangkat Divide and Conquer");
